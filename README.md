@@ -1,11 +1,11 @@
 # Amazon Vine Analysis
 
 ## Overview
-This project analyzes Amazon Vine program and determines if there is a bias toward favorable reviews (5-star reviews) from Vine members.  Data Analysis, Inc. (DAI) focused on the US reviews for shoes dataset.  DAI utilized PySpark via Google Colab Notebook, PgAdmin, and Postgresql to perform the analysis.  DAI first performed extract, transform, and load (ETL) to prepare the data for analysis.  The dataset could then be analyzed to determine the most helpful reviews which were used to compute for both Vine members (paid reviews) and non-Vine members (nonpaid reviews) the following information:
+This project analyzes Amazon's Vine program and determines if there is a bias toward favorable reviews (5-star reviews) from Vine members.  Data Analysis, Inc. (DAI) focused on the Amazon's US reviews for shoes dataset.  DAI utilized PySpark via Google Colab Notebook, PgAdmin, and Postgresql to perform the analysis.  DAI first performed extract, transform, and load (ETL) to prepare the data for analysis.  The dataset could then be analyzed to determine the most helpful reviews which were in turn used to compute for both Vine members (paid reviews) and non-Vine members (nonpaid reviews).  The following information was determined:
 
-* the total number of reviews reviews by paid and nonpaid
-* the number reviews of 5-star ratings by paid and nonpaid
-* the percentage of 5-star rating to the total by paid and nonpaid 
+* the total number of reviews by paid and nonpaid
+* the number of reviews of 5-star ratings by paid and nonpaid
+* the percentage of 5-star ratings to the total by paid and nonpaid 
  
 
 ## Resources
@@ -25,7 +25,7 @@ Amazon Vine Shoe Reviews for non-Vine members:
 ![Amazon_Unpaid_Reviews](https://user-images.githubusercontent.com/35401581/144687491-a85b82c4-e04c-432c-a9e1-e629a55d1898.png)
 
 The above information answers the following questions:
-* How many Vine reviews and non_Vine reviews were found?  
+* How many Vine reviews and non-Vine reviews were found?  
     * There were a total of 22 reveiws for Vine members and a total of 26,987 for non-Vine members.
 * How many Vine reviews were 5-star ratings?  And how many non-Vine reviews were 5-stars?
     * There were 13 5-star ratings for Vine members and 14,475 5-star ratings for non-Vine members.
